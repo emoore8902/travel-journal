@@ -1,5 +1,11 @@
+.journal {
+  max-width: 550px;
+  max-height: 704px;
+}
+
 nav {
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: #F55A5A;
   color: white;
@@ -12,7 +18,8 @@ nav {
 .locations {
     display: flex;
     flex-direction: row;
-    padding:40px;
+    padding: 40px;
+    justify-content: center;
 }
 
 .locations--image {
@@ -35,6 +42,10 @@ nav {
 .location--symbol {
   width: 7px;
   height: 9.55px;
+}
+
+.locations--maps--link {
+  margin-left: 12px;
 }
 
 .locations--maps--link > a{

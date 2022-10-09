@@ -14,7 +14,7 @@ function App() {
     )
   })
   return (
-    <div>
+    <div className = "journal">
       <Navbar />
       <section className = "locations-list">
         {locations}
